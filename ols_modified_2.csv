@@ -1,0 +1,27 @@
+Dependent Variable: GDP,,,,
+Method: Least Squares,,,,
+Date: 05/26/24   Time: 09:49,,,,
+Sample: 2000Q1 2019Q4,,,,
+Included observations: 80,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+EUROSTOXX,0.060117,0.013595,4.421900,0.0000
+EXCHANGE_RATE,0.150046,0.254709,0.589087,0.5576
+INFLATION,-0.132378,0.070262,-1.884078,0.0635
+INTEREST_RATE,-0.390536,0.323646,-1.206676,0.2315
+IP,0.116417,0.043244,2.692098,0.0088
+UNEMPLOYMENT,-0.158305,0.308897,-0.512484,0.6099
+C,4.027975,9.973278,0.403877,0.6875
+,,,,
+R-squared,0.435517,    Mean dependent var,,2.353865
+Adjusted R-squared,0.389121,    S.D. dependent var,,2.436755
+S.E. of regression,1.904538,    Akaike info criterion,,4.209789
+Sum squared resid,264.7903,    Schwarz criterion,,4.418216
+Log likelihood,-161.3916,    Hannan-Quinn criter.,,4.293353
+F-statistic,9.386961,    Durbin-Watson stat,,0.463639
+Prob(F-statistic),0.000000,,,
+,,,,
+
+
+

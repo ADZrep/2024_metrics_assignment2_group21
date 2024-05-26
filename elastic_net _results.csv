@@ -1,0 +1,60 @@
+Dependent Variable: GDP,,,,
+Method: Elastic Net Regularization,,,,
+Date: 05/26/24   Time: 17:51,,,,
+Sample: 2000Q1 2019Q4,,,,
+Included observations: 80,,,,
+Penalty type: Elastic Net (alpha = 0.5),,,,
+Lambda at minimum error: 0.06772,,,,
+Regressor transformation: None,,,,
+"Cross-validation method: K-Fold (number of folds = 5), rng=kn,",,,,
+        seed=1097113444,,,,
+Selection measure: Mean Squared Error,,,,
+,,,,
+,(minimum),(+ 1 SE),(+ 2 SE),
+Lambda,0.06772,17.99,31.43,
+,,,,
+Variable,,Coefficients,,
+,,,,
+CONSUMER_CONFIDENCE,0.000221,0.000130,4.92E-05,
+EUROSTOXX,0.059592,0.038969,0.023877,
+EXCHANGE_RATE,0.124428,0.053924,1.48E-05,
+INFLATION,-0.137886,-0.074946,-0.027165,
+INTEREST_RATE,-0.399243,-0.310352,-0.242296,
+IP,0.114242,0.053769,0.007819,
+UNEMPLOYMENT,-0.170442,-0.097848,-0.042368,
+C,5.116290,4.994262,4.903482,
+,,,,
+d.f.,7,7,7,
+L1 Norm,6.122345,5.624201,5.247071,
+R-squared,0.437135,0.357306,0.193960,
+,,,,
+
+
+
+Dependent Variable: GDP,,,,
+Method: Least Squares,,,,
+Date: 05/26/24   Time: 09:49,,,,
+Sample: 2000Q1 2019Q4,,,,
+Included observations: 80,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+EUROSTOXX,0.060117,0.013595,4.421900,0.0000
+EXCHANGE_RATE,0.150046,0.254709,0.589087,0.5576
+INFLATION,-0.132378,0.070262,-1.884078,0.0635
+INTEREST_RATE,-0.390536,0.323646,-1.206676,0.2315
+IP,0.116417,0.043244,2.692098,0.0088
+UNEMPLOYMENT,-0.158305,0.308897,-0.512484,0.6099
+C,4.027975,9.973278,0.403877,0.6875
+,,,,
+R-squared,0.435517,    Mean dependent var,,2.353865
+Adjusted R-squared,0.389121,    S.D. dependent var,,2.436755
+S.E. of regression,1.904538,    Akaike info criterion,,4.209789
+Sum squared resid,264.7903,    Schwarz criterion,,4.418216
+Log likelihood,-161.3916,    Hannan-Quinn criter.,,4.293353
+F-statistic,9.386961,    Durbin-Watson stat,,0.463639
+Prob(F-statistic),0.000000,,,
+,,,,
+
+
+
