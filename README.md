@@ -1,0 +1,1 @@
+This repository contains the full .csv files, as they were retrieved from Eviews' output, for the second assignment of group 21 for the course 20203 - Econometrics at Bocconi University, academic year 2023-2024.
