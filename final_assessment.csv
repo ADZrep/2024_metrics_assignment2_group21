@@ -1,0 +1,34 @@
+Forecast Evaluation,,,,,,
+Date: 05/25/24   Time: 17:33,,,,,,
+Sample: 2010Q1 2019Q4,,,,,,
+Included observations: 40,,,,,,
+Evaluation sample: 2010Q1 2019Q4,,,,,,
+Number of forecasts: 2,,,,,,
+,,,,,,
+Combination tests,,,,,,
+Null hypothesis: Forecast i includes all information contained in others,,,,,,
+,,,,,,
+Forecast,F-stat   ,F-prob ,,,,
+,,,,,,
+AR_FORECAST,15.66938,0.0003,,,,
+ARDL_FORECAST,0.823715,0.3698,,,,
+,,,,,,
+Diebold-Mariano test (HLN adjusted),,,,,,
+Null hypothesis: Both forecasts have the same accuracy,,,,,,
+,,,,,,
+Accuracy,Statistic,<> prob,> prob,< prob,,
+,,,,,,
+Abs Error,-2.158605,0.0371,0.0185,0.9815,,
+Sq Error,-1.769846,0.0846,0.0423,0.9577,,
+,,,,,,
+Evaluation statistics,,,,,,
+,,,,,,
+Forecast,RMSE,MAE,MAPE,SMAPE,Theil U1,Theil U2
+,,,,,,
+AR_FORECAST, 2.183368, 1.699275, 91.53843, 79.62275, 0.475476, 1.774939
+ARDL_FORECAST, 2.997300, 2.579646, 179.6906, 122.7127, 0.451561, 2.118594
+,,,,,,
+
+
+
+
